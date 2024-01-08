@@ -10,7 +10,7 @@
     if you came here to skid off this, stop right now in the name of the law of america!1!!
 ]]
 
-repeat task.wait() until game:IsLoaded()
+if Game:IsLoaded() then
 do--//Instances
 	Debug = false
 	BETA = false
